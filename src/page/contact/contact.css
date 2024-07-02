@@ -153,21 +153,19 @@
     
 }
 
-  @media (max-width: 282px) {
-    
-    .contact-title::after{
-        content: "Talk to Me";
-        position: absolute;
-        bottom: -35px;
-        background:#fff;
-        left: 50%;
-        font-size: 20px;
-        color: rgb(41, 72, 207) ;
-        transform: translateX(-50%);
-       
-    }
-    
+@media (max-width: 3000px) {
+  .container-contact{
+    width: 60%;
+    padding: 30px 40px 40px 35px ;
+  }
 }
+@media (max-width: 2000px) {
+  .container-contact{
+    width: 70%;
+    padding: 30px 40px 40px 35px ;
+  }
+}
+
   
   @media (max-width: 950px) {
     .container-contact{
@@ -212,4 +210,18 @@
   }
   
 
+  @media (max-width: 282px) {
     
+    .contact-title::after{
+        content: "Talk to Me";
+        position: absolute;
+        bottom: -35px;
+        background:#fff;
+        left: 50%;
+        font-size: 20px;
+        color: rgb(41, 72, 207) ;
+        transform: translateX(-50%);
+       
+    }
+    
+}

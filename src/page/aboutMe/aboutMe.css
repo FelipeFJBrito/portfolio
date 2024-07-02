@@ -44,6 +44,7 @@
 .about-me-container {
     display: flex;
     max-width: 1000px;
+    max-height: 700px;
     height: 90vh;
     width: 100%;
     margin: 5% 5%;
@@ -72,6 +73,7 @@
     margin-bottom: 2%;
     font-weight: 500;
     padding: 5%;
+
 }
 
 .list-container h2 {
@@ -89,25 +91,31 @@
     margin-top: 4rem;
 }
 
-.primary-btn-a {
+.profile-options  button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
-    padding: 10px;
-    width: 145px;
+    padding: 10px 0;
+    width: 140px;
     color: var(--white);
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background-color: var(--darker-gray);
     border: 2px solid var(--white);
     cursor: pointer;
 }
 
-.highl-btn-a {
+.profile-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
-    padding: 10px;
-    width: 145px;
+    padding: 10px 0;
+    width: 140px;
     color: var(--white);
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background-color: var(--medium-blue);
     border: 2px solid var(--white);
     text-decoration: none;
@@ -128,12 +136,14 @@
 @media (max-width: 1024px) {
     .about-me-wrapper {
         padding: 10%;
+        
 
     }
 
     .about-me-container {
         flex-direction: column;
         height: auto;
+        max-height: 1100px;
         display: flex;
         align-items: center;
         margin-top: 15%;

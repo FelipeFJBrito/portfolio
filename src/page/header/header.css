@@ -2,7 +2,7 @@
 .header-container {
     background: url('./header-assets/bg.jpg') no-repeat center;
     background-size: cover;
-    height: 950px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,10 +72,10 @@
 
 .primary-btn, .highl-btn {
     padding: 10px;
-    width: 145px;
+    width: 140px;
     color: var(--white);
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: 2px solid var(--white);
     cursor: pointer;
     text-decoration: none;
@@ -111,9 +111,15 @@
 }
 
 /* Responsive styles */
+
+@media (max-width: 2224px) {
+    .header-container {
+        height: 950px;
+    }
+}
 @media (max-width: 1024px) {
     .header-container {
-        height: 1000px;
+        height: 950px;
     }
 
     .profile-role-container {
