@@ -245,12 +245,13 @@
 
 @media (max-width: 380px) {
 
-    .primary-btn-a {
-        font-size: 0.85rem;
+    .profile-options button{
+        font-size: 0.8rem;
+
     }
 
-    .highl-btn-a {
-        font-size: 0.85rem;
+    .profile-options a{
+        font-size: 0.8rem;
 
     }
 }
