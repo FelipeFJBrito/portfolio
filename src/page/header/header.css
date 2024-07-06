@@ -27,7 +27,7 @@
 .profile-picture-background {
     height: 92%;
     width: 92%;
-    background-image: url("./header-assets/profilePhoto.png");
+    background-image: url("./header-assets/profilePhoto.jpeg");
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;

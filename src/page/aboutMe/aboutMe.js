@@ -45,7 +45,7 @@ const AboutMe = ({ contactRef }) => {
             </div>
             <div className="about-me-container">
                 <div className="image-container">
-                    {/* You can add your image here */}
+                    
                 </div>
                 <div className="about-me-content">
                     <p>
