@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import './projects.css';
 
 // Import images
-import hangmanImg from './passets/hangman.png';
+import portfolio from './passets/portfolio.png';
 import netflix from './passets/netflix.png';
 import snakeGame from './passets/snakeGame.png';
 import tictactoe from './passets/tictactoe.png';
@@ -13,11 +13,11 @@ import tictactoe from './passets/tictactoe.png';
 
 const data = [
     {
-        title: 'HangMan',
-        img: hangmanImg,
-        description: 'Python HangMan Game',
+        title: 'Portfolio',
+        img: portfolio,
+        description: 'Professional Portfolio',
         button: 'See on Github',
-        url: "https://github.com/FelipeFJBrito/Python_Projects/tree/main/Hangman"
+        url: "https://github.com/FelipeFJBrito/portfolio"
     },
     {
         title: 'Netflix',
