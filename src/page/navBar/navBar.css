@@ -46,6 +46,7 @@
 
 .nav-list a:hover {
     color: var(--medium-blue);
+    transition: 0.8s ease-out;
 }
 
 /* Smooth dropdown styles */
