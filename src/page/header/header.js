@@ -58,7 +58,7 @@ const Header = ({ contactRef }) => {
             </div>
             <div className="profile-options">
                 <button ref={buttonHireMeRef} className="btn primary-btn">
-                    Hire Me
+                    Let's Talk
                 </button>
                 <a href="https://drive.google.com/file/d/1ZWIZVcckTNHf0usRQKR_p4IhV0ycXpC8/view?usp=sharing" className="btn highl-btn" target="_blank" rel="noopener noreferrer">
                     Get Resume

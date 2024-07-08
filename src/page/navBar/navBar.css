@@ -20,7 +20,7 @@
     bottom: 20px;
     right: 20px;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     cursor: pointer;
     z-index: 2;
 }
@@ -45,8 +45,9 @@
 }
 
 .nav-list a:hover {
-    color: var(--medium-blue);
+    color: rgb(12, 89, 255);
     transition: 0.8s ease-out;
+  
 }
 
 /* Smooth dropdown styles */

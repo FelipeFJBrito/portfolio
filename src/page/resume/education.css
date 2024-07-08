@@ -14,6 +14,9 @@
     margin-top: 2px;
 }
 .education-header .date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
 }
 .education-header h3{

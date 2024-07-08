@@ -14,6 +14,9 @@
     margin-top: 2px;
 }
 .certificate-header .date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
 }
 .certificate-header h3{
