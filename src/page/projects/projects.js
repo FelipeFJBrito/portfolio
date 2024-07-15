@@ -8,7 +8,7 @@ import './projects.css';
 import portfolio from './passets/portfolio.png';
 import netflix from './passets/netflix.png';
 import snakeGame from './passets/snakeGame.png';
-import tictactoe from './passets/tictactoe.png';
+import brito from './passets/brito.png';
 
 
 const data = [
@@ -27,11 +27,11 @@ const data = [
         url: "https://github.com/FelipeFJBrito/netflix-website"
     },
     {
-        title: 'Tic Tac Toe',
-        img: tictactoe, // Use imported image variable
-        description: 'Python Tic Tac Toe Game',
-        button: 'See on Github',
-        url: "https://github.com/FelipeFJBrito/Python_Projects/tree/main/TIC_TAC_TOE"
+        title: 'Brito',
+        img: brito, // Use imported image variable
+        description: 'Brito WebDevelopment Company Website',
+        button: 'See Page',
+        url: "https://felipefjbrito.github.io/Brito/"
     },
     {
         title: 'Snake Game',
