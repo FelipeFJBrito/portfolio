@@ -7,8 +7,9 @@ import './projects.css';
 // Import images
 import portfolio from './passets/portfolio.png';
 import netflix from './passets/netflix.png';
-import snakeGame from './passets/snakeGame.png';
+import javajam from './passets/javajam.png';
 import brito from './passets/brito.png';
+import convert from './passets/convert.png'
 
 
 const data = [
@@ -34,11 +35,18 @@ const data = [
         url: "https://felipefjbrito.github.io/Brito/"
     },
     {
-        title: 'Snake Game',
-        img: snakeGame, // Use imported image variable or adjust path if needed
-        description: 'Python Snake Game',
-        button: 'See on Github',
-        url: "https://github.com/FelipeFJBrito/Python_Projects/tree/main/Snake_Game"
+        title: 'JavaJam',
+        img: javajam, // Use imported image variable or adjust path if needed
+        description: "Javajam's Coffe website",
+        button: 'See Page',
+        url: "https://felipefjbrito.github.io/javajam/"
+    },
+    {
+        title: 'Convert',
+        img: convert, 
+        description: "Data Structure studie Website",
+        button: 'See Page',
+        url: "https://felipefjbrito.github.io/Convert/"
     },
 ];
 

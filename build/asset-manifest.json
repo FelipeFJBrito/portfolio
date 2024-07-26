@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.372d309c.css",
-    "main.js": "/portfolio/static/js/main.85956690.js",
+    "main.css": "/portfolio/static/css/main.c4f36c69.css",
+    "main.js": "/portfolio/static/js/main.5fdafdce.js",
+    "static/media/brito.png": "/portfolio/static/media/brito.ebed33b0fff4fca73b1b.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.817c9d45d731e49b0fee.png",
-    "static/media/brito.png": "/portfolio/static/media/brito.8ef5a67e92e6a21ab109.png",
+    "static/media/javajam.png": "/portfolio/static/media/javajam.c9340c46219e759dd0cf.png",
+    "static/media/convert.png": "/portfolio/static/media/convert.cf51cc40f871385bd56d.png",
     "static/media/Me3.jpeg": "/portfolio/static/media/Me3.e448b28fdae3749489f4.jpeg",
-    "static/media/portfolio.png": "/portfolio/static/media/portfolio.cd5353f16ef7811a4583.png",
-    "static/media/snakeGame.png": "/portfolio/static/media/snakeGame.751e4e9a143df2d7f06e.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.1a74119c9006741fb25c.png",
     "static/media/profilePhoto.jpeg": "/portfolio/static/media/profilePhoto.c1df1411a9d1cf36a460.jpeg",
     "static/media/bg.jpg": "/portfolio/static/media/bg.a17134eec401264af222.jpg",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -14,11 +15,11 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.372d309c.css.map": "/portfolio/static/css/main.372d309c.css.map",
-    "main.85956690.js.map": "/portfolio/static/js/main.85956690.js.map"
+    "main.c4f36c69.css.map": "/portfolio/static/css/main.c4f36c69.css.map",
+    "main.5fdafdce.js.map": "/portfolio/static/js/main.5fdafdce.js.map"
   },
   "entrypoints": [
-    "static/css/main.372d309c.css",
-    "static/js/main.85956690.js"
+    "static/css/main.c4f36c69.css",
+    "static/js/main.5fdafdce.js"
   ]
 }
