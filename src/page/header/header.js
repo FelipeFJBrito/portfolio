@@ -67,7 +67,7 @@ const Header = ({ contactRef }) => {
             </div>
             <div className="fav">
                 <div className="fav-icon">
-                    <a href="https://www.linkedin.com/in/felipebrito-programador/" target="_blank" rel="noopener noreferrer">
+                    <a href="www.linkedin.com/in/felipefjbrito/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="fa-linkedin" color="white" size="1.8rem" style={{ marginRight: '10px' }} />
                     </a>
                     <a href="https://github.com/FelipeFJBrito" target="_blank" rel="noopener noreferrer">
