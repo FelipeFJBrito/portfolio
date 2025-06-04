@@ -38,7 +38,7 @@ const Contact = forwardRef((props, ref) => {
                                 <i>{map}</i>
                                 <div className="topic">Address</div>
                                 <div className="text-one">Vancouver BC</div>
-                                <div className="text-two">5598 Ormidale Street</div>
+                                <div className="text-two">5515 Boundary Road</div>
                             </div>
                             <div className="phone details">
                                 <i>{phone}</i>
@@ -48,7 +48,7 @@ const Contact = forwardRef((props, ref) => {
                             <div className="email details">
                                 <i>{letter}</i>
                                 <div className="topic">Email</div>
-                                <div className="text-one">felipefjbrito@gmail.com</div>
+                                <div className="text-one">felipefjdbrito@gmail.com</div>
                             </div>
                         </div>
 

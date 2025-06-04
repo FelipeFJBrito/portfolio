@@ -34,10 +34,10 @@ const Resume = () => {
 
     const workHistoryData = [
         {
-            company: "Kelly Services Canada",
+            company: "Langara College",
             date: "2024-Now",
-            role: "IT FIELD TECHNICIAN",
-            description: "Responsible for installation of new equipment, and the efficient relocation of existing equipment to meet client needs. Modified systems, upgraded hardware, and troubleshooted existing hardware by assessing their system requirements."
+            role: "Computer Lab Assistant",
+            description: "Supported computer science education by collaborating on curriculum development, assisting students during lab sessions, and providing individualized guidance. Focused on fostering critical thinking, evaluating assignments with attention to code quality and best practices, and helping students build strong problem-solving skills across multiple course topics."
         },
         {
             company: "Smart4 Technologies",
