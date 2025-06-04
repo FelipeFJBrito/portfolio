@@ -13,7 +13,7 @@ const Footer = () =>{
                         //this box is going to be our favicons
                         //We are going to use ReactIcons to generate the favicons
                     }
-                    <a href="https://www.linkedin.com/in/felipebrito-programador/" target="_blank" rel="noopener noreferrer">
+                    <a href="www.linkedin.com/in/felipefjbrito/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="fa-linkedin" color="white" size="1.8rem" style={{ marginRight: '10px' }} />
                     </a>
 
