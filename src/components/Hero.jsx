@@ -10,9 +10,9 @@ import profileImage from "../assets/profile.jpeg";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 font-poppins">
+    <section className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 pt-24 lg:pt-0 pb-5 lg:pb-0 font-poppins">
       <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10">
-
+        
         {/* Text content with animation */}
         <motion.div
           className="flex flex-col justify-center md:w-1/2 text-center md:text-left space-y-6"
@@ -88,32 +88,42 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
-        {/* Profile picture with Tilt animation */}
+        {/* Profile picture with Tilt and floating animation */}
         <motion.div
           className="md:w-1/2 flex justify-center"
           variants={fadeIn("right", "spring", 0.5, 1)}
           initial="hidden"
           animate="show"
         >
-          <Tilt
-            options={{
-              max: 45,
-              scale: 1,
-              speed: 450,
+          <motion.div
+            animate={{ y: [0, -15, 0] }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              repeatType: "loop",
+              ease: "easeInOut",
             }}
-            className="rounded-full shadow-[4px_4px_30px_rgb(12,89,255)] overflow-hidden w-80 h-80 md:w-96 md:h-96 cursor-pointer transition-transform duration-500 hover:scale-105"
           >
-            <div
-              style={{
-                backgroundImage: `url(${profileImage})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center 20%",
-                width: "100%",
-                height: "100%",
+            <Tilt
+              options={{
+                max: 45,
+                scale: 1,
+                speed: 450,
               }}
-              aria-label="Profile picture"
-            />
-          </Tilt>
+              className="rounded-full shadow-[4px_4px_30px_rgb(12,89,255)] overflow-hidden w-80 h-80 md:w-96 md:h-96 cursor-pointer transition-transform duration-500 hover:scale-105"
+            >
+              <div
+                style={{
+                  backgroundImage: `url(${profileImage})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center 20%",
+                  width: "100%",
+                  height: "100%",
+                }}
+                aria-label="Profile picture"
+              />
+            </Tilt>
+          </motion.div>
         </motion.div>
       </div>
     </section>

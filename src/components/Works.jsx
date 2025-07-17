@@ -20,8 +20,9 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
         scale: 1,
         speed: 450,
       }}
-      className='bg-tertiary p-5 rounded-2xl w-full h-full max-w-[360px]'
+      className='bg-tertiary p-5 rounded-2xl w-full h-full max-w-[360px] flex flex-col'
     >
+      {/* Image */}
       <div className='relative w-full h-[230px]'>
         <img
           src={image}
@@ -42,21 +43,27 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
         </div>
       </div>
 
-      <div className='mt-5'>
-        <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-        <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-      </div>
-
-      <div className='mt-4 flex flex-wrap gap-2'>
-        {tags.map((tag) => (
-          <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
-            #{tag.name}
+      {/* Text content with flex grow */}
+      <div className='flex flex-col justify-between flex-1 mt-5'>
+        <div>
+          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <p className='mt-2 text-secondary text-[14px] min-h-[60px]'>
+            {description}
           </p>
-        ))}
+        </div>
+
+        <div className='mt-4 flex flex-wrap gap-2'>
+          {tags.map((tag) => (
+            <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
+              #{tag.name}
+            </p>
+          ))}
+        </div>
       </div>
     </Tilt>
   );
 };
+
 
 const Works = () => {
   return (
@@ -68,11 +75,10 @@ const Works = () => {
 
       <div className='w-full flex'>
         <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          Following projects showcase my skills and experience through real-world
-          examples of my work. Each project is briefly described with links to
-          code repositories and live demos. It reflects my ability to solve
-          complex problems, work with different technologies, and manage projects
-          effectively.
+          The following projects highlight my skills and experience through practical, 
+          real-world examples. Each project includes a brief description along with links to the source code and live demos. 
+          These works demonstrate my problem-solving abilities, proficiency with diverse technologies, 
+          and effective project management.
         </p>
       </div>
 
@@ -101,4 +107,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

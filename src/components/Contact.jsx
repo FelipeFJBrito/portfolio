@@ -58,7 +58,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='flex justify-center items-center mt-12 mb-12 px-4'>
+    <div className='flex justify-center items-center mt-12 mb-12 px-4 pb-10 lg:pb-0'>
       <motion.div
         variants={slideIn("up", "tween", 0.2, 1)}
         className='w-full max-w-2xl bg-black-100 p-8 rounded-2xl'

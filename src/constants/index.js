@@ -1,29 +1,4 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+import { carrent, jobit, tripguide } from "../assets";
 
 export const navLinks = [
   {
@@ -35,82 +10,12 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -118,7 +23,7 @@ const experiences = [
   {
     title: "Computer Science Lab Assistant",
     company_name: "Langara College",
-    icon: "/assets/langara.png",
+    icon: `${import.meta.env.BASE_URL}assets/langara.png`,
     iconBg: "#E6DEDD",
     date: "Sep 2024 - Present",
     points: [
@@ -131,7 +36,7 @@ const experiences = [
   {
     title: "Information Technology Field Technician",
     company_name: "Kelly Services (Canada), Ltd.",
-    icon: "/assets/kelly.jpeg",
+    icon: `${import.meta.env.BASE_URL}assets/kelly.jpeg`,
     iconBg: "#E6DEDD",
     date: "Feb 2024 - Present",
     points: [
@@ -143,8 +48,8 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Smart4 Sistemas e Tecnologia",
-    icon: "/assets/smart4.png", // replace `smart4` with the actual icon import or image path you're using
-    iconBg: "#00B5E2", 
+    icon: `${import.meta.env.BASE_URL}assets/smart4.png`,
+    iconBg: "#00B5E2",
     date: "Jun 2021 - Sep 2022",
     points: [
       "Developed and maintained systems for public agencies using Java and the ZK framework for frontend development.",
@@ -161,22 +66,21 @@ const education = [
     institution: "Langara College",
     duration: "2024 - 2026",
     degree: "Degree of Computer Science",
-    image: "/assets/langara.png", // or a logo
+    image: `${import.meta.env.BASE_URL}assets/langara.png`,
   },
   {
     institution: "University Area 1",
     duration: "2016 - 2021",
     degree: "Bachelor of Computer Engineering",
-    image: "/assets/area1.png",
+    image: `${import.meta.env.BASE_URL}assets/area1.png`,
   },
   {
     institution: "Sartre COC",
     duration: "2012 - 2014",
     degree: "High School",
-    image: "/assets/sartre.jpeg",
+    image: `${import.meta.env.BASE_URL}assets/sartre.jpeg`,
   },
 ];
-
 
 const projects = [
   {
@@ -222,25 +126,25 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A place to explore my background, learn about my work and skills, and find ways to connect with me, feel free to reach out and connect.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "motion",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: `${import.meta.env.BASE_URL}assets/portfolio.png`,
+    source_code_link: "https://github.com/FelipeFJBrito/portfolio/tree/main",
   },
   {
     name: "Trip Guide",
@@ -265,4 +169,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, education, projects };
+export { experiences, education, projects };
