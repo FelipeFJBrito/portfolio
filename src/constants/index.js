@@ -116,85 +116,67 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Computer Science Lab Assistant",
+    company_name: "Langara College",
+    icon: "src/assets/langara.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborate with instructors to design and review lab exercises and weekly assignments for computer science courses.",
+      "Support students during lab hours by promoting critical thinking and guiding them through problem-solving strategies.",
+      "Evaluate lab submissions and assignments with a focus on code readability, design, and best practices.",
+      "Provide one-on-one academic support at the Computer Science Help Center across multiple courses and technical levels.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Information Technology Field Technician",
+    company_name: "Kelly Services (Canada), Ltd.",
+    icon: "src/assets/kelly.jpeg",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Install and configure new hardware and relocate existing equipment to meet client requirements with minimal disruption.",
+      "Upgrade systems and troubleshoot hardware issues by assessing needs and implementing necessary improvements.",
+      "Contribute to large-scale IT projects, including PC and server updates and printer integration into network environments.",
     ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Smart4 Sistemas e Tecnologia",
+    icon: "src/assets/smart4.png", // replace `smart4` with the actual icon import or image path you're using
+    iconBg: "#00B5E2", 
+    date: "Jun 2021 - Sep 2022",
+    points: [
+      "Developed and maintained systems for public agencies using Java and the ZK framework for frontend development.",
+      "Implemented new features, modified existing functionalities, and fixed bugs to improve system performance.",
+      "Managed system databases using SQL queries and SQLyog, creating new tables and updating data to support new features.",
+      "Ensured data integrity by implementing corrections and maintaining consistent database operations.",
+      "Worked in a remote environment, collaborating with the team to deliver reliable and efficient software solutions."
+    ],
+  }
+];
+
+const education = [
+  {
+    institution: "Langara College",
+    duration: "2024 - 2026",
+    degree: "Degree of Computer Science",
+    image: "src/assets/langara.png", // or a logo
+  },
+  {
+    institution: "University Area 1",
+    duration: "2016 - 2021",
+    degree: "Bachelor of Computer Engineering",
+    image: "src/assets/area1.png",
+  },
+  {
+    institution: "Sartre COC",
+    duration: "2012 - 2014",
+    degree: "High School",
+    image: "src/assets/sartre.jpeg",
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -260,6 +242,27 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, education, projects };
