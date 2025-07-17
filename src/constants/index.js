@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "Computer Science Lab Assistant",
     company_name: "Langara College",
-    icon: "src/assets/langara.png",
+    icon: "/assets/langara.png",
     iconBg: "#E6DEDD",
     date: "Sep 2024 - Present",
     points: [
@@ -131,7 +131,7 @@ const experiences = [
   {
     title: "Information Technology Field Technician",
     company_name: "Kelly Services (Canada), Ltd.",
-    icon: "src/assets/kelly.jpeg",
+    icon: "/assets/kelly.jpeg",
     iconBg: "#E6DEDD",
     date: "Feb 2024 - Present",
     points: [
@@ -143,7 +143,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Smart4 Sistemas e Tecnologia",
-    icon: "src/assets/smart4.png", // replace `smart4` with the actual icon import or image path you're using
+    icon: "/assets/smart4.png", // replace `smart4` with the actual icon import or image path you're using
     iconBg: "#00B5E2", 
     date: "Jun 2021 - Sep 2022",
     points: [
@@ -161,19 +161,19 @@ const education = [
     institution: "Langara College",
     duration: "2024 - 2026",
     degree: "Degree of Computer Science",
-    image: "src/assets/langara.png", // or a logo
+    image: "/assets/langara.png", // or a logo
   },
   {
     institution: "University Area 1",
     duration: "2016 - 2021",
     degree: "Bachelor of Computer Engineering",
-    image: "src/assets/area1.png",
+    image: "/assets/area1.png",
   },
   {
     institution: "Sartre COC",
     duration: "2012 - 2014",
     degree: "High School",
-    image: "src/assets/sartre.jpeg",
+    image: "/assets/sartre.jpeg",
   },
 ];
 

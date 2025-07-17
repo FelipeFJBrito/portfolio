@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import profileImage from "../assets/profile.jpeg";
+
 const Hero = () => {
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 font-poppins">
@@ -103,7 +105,7 @@ const Hero = () => {
           >
             <div
               style={{
-                backgroundImage: "url('src/assets/profile.jpeg')",
+                backgroundImage: `url(${profileImage})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center 20%",
                 width: "100%",
