@@ -12,7 +12,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ name,link, description, tags, image, source_code_link }) => {
   return (
     <Tilt
       options={{
@@ -46,7 +46,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
       {/* Text content with flex grow */}
       <div className='flex flex-col justify-between flex-1 mt-5'>
         <div>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <a href={link} target="_blank" rel="noopener noreferrer"  className='text-white font-bold text-[24px]'>{name}</a>
           <p className='mt-2 text-secondary text-[14px] min-h-[60px]'>
             {description}
           </p>

@@ -106,8 +106,9 @@ const projects = [
   },
   {
     name: "AI Chatbot",
+    link: "https://felipefjbrito.github.io/aichatbot/",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Gasper helps users ask questions, retrieve information, perform simple tasks, and interact with various data sources through natural in real-time conversations.",
     tags: [
       {
         name: "react",
@@ -127,6 +128,7 @@ const projects = [
   },
   {
     name: "Portfolio",
+    link: "https://felipefjbrito.github.io/portfolio/",
     description:
       "A place to explore my background, learn about my work and skills, and find ways to connect with me, feel free to reach out and connect.",
     tags: [
