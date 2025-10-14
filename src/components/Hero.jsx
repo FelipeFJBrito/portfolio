@@ -10,17 +10,22 @@ import profileImage from "../assets/profile.jpeg";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 pt-24 lg:pt-0 pb-5 lg:pb-0 font-poppins">
+    <section
+      className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 pt-24 lg:pt-0 pb-5 lg:pb-0 font-poppins"
+    >
       <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10">
-        
-        {/* Text content with animation */}
+
+        {/* ===================== TEXT CONTENT ===================== */}
         <motion.div
           className="flex flex-col justify-center md:w-1/2 text-center md:text-left space-y-6"
           variants={fadeIn("left", "spring", 0.2, 1)}
           initial="hidden"
           animate="show"
         >
-          <motion.p variants={textVariant()} className={`${styles.sectionSubText} text-white`}>
+          <motion.p
+            variants={textVariant()}
+            className={`${styles.sectionSubText} text-white`}
+          >
             Hello, I am <span className="text-[#8d92fd] font-bold">Felipe</span>
           </motion.p>
 
@@ -38,6 +43,7 @@ const Hero = () => {
             Developing applications with front and backend operations.
           </motion.p>
 
+          {/* Call-to-action buttons */}
           <motion.div
             className="flex justify-center md:justify-start gap-6 mt-4"
             variants={fadeIn("", "", 0.4, 1)}
@@ -53,6 +59,7 @@ const Hero = () => {
             >
               Let's Talk
             </button>
+
             <a
               href="https://drive.google.com/file/d/1ZWIZVcckTNHf0usRQKR_p4IhV0ycXpC8/view?usp=sharing"
               target="_blank"
@@ -63,8 +70,9 @@ const Hero = () => {
             </a>
           </motion.div>
 
+          {/* Social media links */}
           <motion.div
-            className="flex justify-center md:justify-start gap-4 mt-6"
+            className="flex justify-center md:justify-start gap-4 mt-6 z-10"
             variants={fadeIn("", "", 0.5, 1)}
           >
             <a
@@ -76,6 +84,7 @@ const Hero = () => {
             >
               <FaLinkedin size={28} />
             </a>
+
             <a
               href="https://github.com/FelipeFJBrito"
               target="_blank"
@@ -88,9 +97,9 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
-        {/* Profile picture with Tilt and floating animation */}
+        {/* ===================== PROFILE PICTURE ===================== */}
         <motion.div
-          className="md:w-1/2 flex justify-center"
+          className="md:w-1/2 flex justify-center relative"
           variants={fadeIn("right", "spring", 0.5, 1)}
           initial="hidden"
           animate="show"
@@ -110,7 +119,9 @@ const Hero = () => {
                 scale: 1,
                 speed: 450,
               }}
-              className="rounded-full shadow-[4px_4px_30px_rgb(12,89,255)] overflow-hidden w-80 h-80 md:w-96 md:h-96 cursor-pointer transition-transform duration-500 hover:scale-105"
+              className="rounded-full shadow-[4px_4px_30px_rgb(12,89,255)] overflow-hidden w-80 h-80 md:w-96 md:h-96 
+                         cursor-pointer transition-transform duration-500 hover:scale-105
+                         pointer-events-none sm:pointer-events-auto"
             >
               <div
                 style={{

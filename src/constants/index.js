@@ -1,4 +1,4 @@
-import { carrent, jobit, tripguide } from "../assets";
+import { carrent, tripguide } from "../assets";
 
 export const navLinks = [
   {

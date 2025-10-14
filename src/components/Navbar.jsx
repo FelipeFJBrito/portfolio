@@ -27,8 +27,9 @@ const Navbar = () => {
 
   return (
     <nav
+      /*This is a dynamic tamplate string*/
       className={`${
-        styles.paddingX
+        styles.paddingX //paddingX one of our tailwind utilities styles
       } w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
@@ -38,8 +39,8 @@ const Navbar = () => {
           to='/'
           className='flex items-center gap-2'
           onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
+            setActive("");//this setActive is going to keep track from were we are in the page
+            window.scrollTo(0, 0);//this is going to scroll to the top of the page
           }}
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
@@ -49,9 +50,10 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
+          {navLinks.map((nav) => (//this map is going to generate the horizontal nav
             <li
               key={nav.id}
+              //inside the class name we want to check to see if the li is current active and change the color if active or not
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
